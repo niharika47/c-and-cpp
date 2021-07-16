@@ -1,0 +1,10 @@
+#include<stdio.h>
+int main()
+{int meter =10;
+double inch,feet;
+inch = 39.37*meter;
+feet =3.281*meter;
+printf("length of 10 meter in inch is %2f\n",inch);
+printf("length of 10 meter in feet is %2f\n",feet);
+ return 0;
+}
