@@ -1,0 +1,11 @@
+
+#include <stdio.h>
+
+int main() {
+    int marks;
+    printf("enter marks\n");
+    scanf("%d",&marks);
+    (marks>5)?printf("pass\n"):printf("fail\n");
+    
+    return 0;
+}
